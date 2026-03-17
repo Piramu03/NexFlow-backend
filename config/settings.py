@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_!v693gzsvc6bj8j@g#+8t7bm)6l6=%9)dp*q5u(yve3*d^4x*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["nexflow-backend-tc4h.onrender.com"]
 
 
 # Application definition
