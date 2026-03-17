@@ -1,0 +1,10 @@
+notepad .gitignore
+```
+
+Paste this inside Notepad:
+```
+venv/
+__pycache__/
+*.pyc
+.env
+db.sqlite3
