@@ -43,7 +43,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
-        'APP_LIBS': True,
+        'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.request',
@@ -56,7 +56,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
-# ✅ FreeSQLDatabase credentials (Production)
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -77,7 +76,6 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10
 }
 
-# ✅ Allow all origins (frontend on Vercel)
 CORS_ALLOW_ALL_ORIGINS = True
 
 AUTH_PASSWORD_VALIDATORS = [
